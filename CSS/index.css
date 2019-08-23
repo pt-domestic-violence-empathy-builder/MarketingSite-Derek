@@ -129,7 +129,7 @@ table {
 body {
   box-sizing: border-box;
   font-family: poppins;
-  color: #EEAA99;
+  color: #ececec;
   font-size: 1rem;
 }
 header nav {
@@ -137,14 +137,14 @@ header nav {
 }
 header nav .dropbtn {
   background-color: #2e3131;
-  color: #EEAA99;
+  color: #ececec;
   padding: 1rem;
   font-size: 1rem;
 }
 header nav .dropbtn .menu {
   width: 35%;
   height: 1px;
-  background-color: #EEAA99;
+  background-color: #ececec;
   margin: 5% 40%;
 }
 header nav .dropdown {
@@ -214,7 +214,7 @@ header nav .dropdown:hover .dropbtn {
   border: 1px solid black;
   font-size: 1.5rem;
   background: #a537fd;
-  color: #EEAA99;
+  color: #ececec;
   text-decoration: none;
   text-align: center;
   width: 50%;
@@ -227,7 +227,6 @@ header nav .dropdown:hover .dropbtn {
   background-color: #DDA0DD;
 }
 .main-content .middle {
-  margin-top: 1%;
   border: 1px solid black;
 }
 .main-content .middle .text2 {
