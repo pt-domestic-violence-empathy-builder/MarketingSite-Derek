@@ -204,7 +204,7 @@ header nav .dropdown:hover .dropbtn {
 .main-content .intro .button-container {
   height: 40rem;
   width: 100%;
-  background-color: #f3f1ef;
+  background-color: #ececec;
   display: flex;
   flex-direction: row;
   justify-content: center;
