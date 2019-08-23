@@ -181,7 +181,7 @@ header nav .dropdown:hover .dropbtn {
 }
 .footer {
   background-color: #a537fd;
-  padding: 1.5%;
+  padding: 2%;
   text-align: center;
 }
 .main-content {
@@ -199,6 +199,7 @@ header nav .dropdown:hover .dropbtn {
   padding-top: 5%;
   padding-left: 5%;
   padding-right: 5%;
+  padding-bottom: 1%;
 }
 .main-content .intro .button-container {
   height: 40rem;
@@ -225,7 +226,25 @@ header nav .dropdown:hover .dropbtn {
   color: black;
   background-color: #DDA0DD;
 }
-.main-content .middle p {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+.main-content .middle {
+  margin-top: 1%;
+  border: 1px solid black;
+}
+.main-content .middle .text2 {
+  padding: 5%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  background-color: #2e3131;
+}
+.main-content .middle .text3 {
+  padding: 5%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  background-color: #a537fd;
+}
+.main-content .middle .text4 {
+  padding: 5%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  background-color: #2e3131;
 }
