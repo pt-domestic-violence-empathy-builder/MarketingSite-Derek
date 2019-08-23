@@ -178,6 +178,11 @@ header nav .dropdown:hover .dropbtn {
   color: black;
   border: 1px solid black;
 }
+.footer {
+  background-color: #a537fd;
+  padding: 1.5%;
+  text-align: center;
+}
 .main-content {
   margin-top: 2%;
   height: 50rem;
