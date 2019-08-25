@@ -262,12 +262,13 @@ header nav .dropdown:hover .dropbtn {
     width: 25%;
     height: 100%;
     background-color: #ececec;
-    border: 1px solid black;
   }
   .main-content .intro .text {
     margin-top: 90%;
     background-color: #ececec;
     color: #EEAA99;
+    border-top: 1px dashed #2e3131;
+    border-bottom: 1px dashed #a537fd;
   }
   .main-content .button-container {
     width: 55%;
