@@ -226,22 +226,22 @@ header nav .dropdown:hover .dropbtn {
   align-items: center;
 }
 .main-content .button-container #button {
-  font-size: 1.5rem;
+  font-size: 3rem;
   background: #a537fd;
   color: #ececec;
   border: 1px solid black;
   box-shadow: 2px 1px 2px black;
   text-decoration: none;
   text-align: center;
-  padding: 20%;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding: 18%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
   border-radius: 50%;
 }
 .main-content .button-container #button:active {
   border: 1px solid black;
   box-shadow: 0 0 0 #DDA0DD;
-  margin-top: 3.25%;
+  margin-top: 2px;
 }
 .main-content .middle .text2 {
   padding: 5%;
@@ -274,7 +274,7 @@ header nav .dropdown:hover .dropbtn {
     height: 40rem;
   }
   .main-content .intro {
-    width: 25%;
+    width: 22.5%;
     height: 100%;
     background-color: #ececec;
   }
@@ -291,12 +291,16 @@ header nav .dropdown:hover .dropbtn {
   }
   .main-content .button-container #button {
     margin-top: 3%;
-    height: 35%;
+    height: 40%;
     width: 60%;
-    padding-top: 45%;
+    padding: 15%;
+    padding-top: 40%;
+  }
+  .main-content .button-container #button:active {
+    margin-top: 3.25%;
   }
   .main-content .middle {
-    width: 25%;
+    width: 22.5%;
     height: 100%;
     border: none;
     background-color: #ececec;
