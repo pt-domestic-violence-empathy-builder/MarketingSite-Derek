@@ -334,7 +334,7 @@ header nav .dropdown:hover .dropbtn {
   align-items: center;
 }
 .about-content .peeps .name {
-  color: #EEAA99;
+  color: #2e3131;
   font-size: 1.5rem;
   height: 2.25rem;
 }
@@ -343,4 +343,139 @@ header nav .dropdown:hover .dropbtn {
   height: 25rem;
   width: 100%;
   border-top: 1px dashed #2e3131;
+}
+.jay-content .peeps .name1 {
+  color: #EEAA99;
+}
+.jay-content .intro-jay {
+  height: 20rem;
+  width: 100%;
+  background-color: lightgrey;
+  font-size: 3rem;
+  border: 1px dashed black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.jay-content .intro-jay h1 {
+  text-align: center;
+}
+.jay-content .middle {
+  height: 25rem;
+  border-top: none;
+  color: black;
+}
+.jay-content .middle p {
+  width: 80%;
+  margin: 10% auto;
+  text-align: center;
+}
+.derek-content .peeps .name2 {
+  color: #EEAA99;
+}
+.derek-content .intro-derek {
+  height: 20rem;
+  width: 100%;
+  background-color: lightgrey;
+  font-size: 3rem;
+  border: 1px dashed black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.derek-content .intro-derek h1 {
+  text-align: center;
+}
+.derek-content .middle {
+  height: 25rem;
+  border-top: none;
+  color: black;
+}
+.derek-content .middle p {
+  width: 80%;
+  margin: 10% auto;
+  text-align: center;
+}
+.iree-content .peeps .name3 {
+  color: #EEAA99;
+}
+.iree-content .intro-iree {
+  height: 20rem;
+  width: 100%;
+  background-color: lightgrey;
+  font-size: 3rem;
+  border: 1px dashed black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.iree-content .intro-iree h1 {
+  text-align: center;
+}
+.iree-content .middle {
+  height: 25rem;
+  border-top: none;
+  color: black;
+}
+.iree-content .middle p {
+  width: 80%;
+  margin: 10% auto;
+  text-align: center;
+}
+.amber-content .peeps .name4 {
+  color: #EEAA99;
+}
+.amber-content .intro-amber {
+  height: 20rem;
+  width: 100%;
+  background-color: lightgrey;
+  font-size: 3rem;
+  border: 1px dashed black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.amber-content .intro-amber h1 {
+  text-align: center;
+}
+.amber-content .middle {
+  height: 25rem;
+  border-top: none;
+  color: black;
+}
+.amber-content .middle p {
+  width: 80%;
+  margin: 10% auto;
+  text-align: center;
+}
+.kim-content .peeps .name5 {
+  color: #EEAA99;
+}
+.kim-content .intro-kim {
+  height: 20rem;
+  width: 100%;
+  background-color: lightgrey;
+  font-size: 3rem;
+  border: 1px dashed black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.kim-content .intro-kim h1 {
+  text-align: center;
+}
+.kim-content .middle {
+  height: 25rem;
+  border-top: none;
+  color: black;
+}
+.kim-content .middle p {
+  width: 80%;
+  margin: 10% auto;
+  text-align: center;
 }
