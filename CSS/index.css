@@ -194,7 +194,9 @@ header nav .dropdown:hover .dropbtn {
 }
 @media (min-width: 1000px) {
   .footer {
-    margin-top: 3.5%;
+    margin-top: 3%;
+    padding-top: 3%;
+    padding-bottom: 1.25%;
   }
 }
 .main-content {
@@ -239,7 +241,7 @@ header nav .dropdown:hover .dropbtn {
 .main-content .button-container #button:active {
   border: 1px solid black;
   box-shadow: 0 0 0 #DDA0DD;
-  margin-top: 2px;
+  margin-top: 3.25%;
 }
 .main-content .middle .text2 {
   padding: 5%;
@@ -288,6 +290,7 @@ header nav .dropdown:hover .dropbtn {
     width: 55%;
   }
   .main-content .button-container #button {
+    margin-top: 3%;
     height: 35%;
     width: 60%;
     padding-top: 45%;
