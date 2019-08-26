@@ -311,3 +311,36 @@ header nav .dropdown:hover .dropbtn {
     color: #EEAA99;
   }
 }
+.about-content .intro {
+  height: 10rem;
+  width: 100%;
+  background-color: #a537fd;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.about-content .intro h1 {
+  text-align: center;
+}
+.about-content .peeps {
+  height: 15rem;
+  width: 100%;
+  background-color: #ececec;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-content .peeps .name {
+  color: #EEAA99;
+  font-size: 1.5rem;
+  height: 2.25rem;
+}
+.about-content .middle {
+  background-color: #ececec;
+  height: 25rem;
+  width: 100%;
+  border-top: 1px dashed #2e3131;
+}

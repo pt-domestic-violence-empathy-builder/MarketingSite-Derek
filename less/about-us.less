@@ -1,0 +1,29 @@
+.about-content{
+    .intro{
+        height: 10rem;
+        width: 100%;
+        background-color: #a537fd; 
+        font-size: @header * 2;
+        h1{
+            text-align: center;
+        }
+        .flexin(row, center, center);
+    }
+    .peeps{
+        height: 15rem;
+        width: 100%;
+        background-color: #ececec;
+        .name{
+            color: @flower;
+            font-size: @header;
+            height: 2.25rem;
+        }
+        .flexin(column, space-evenly, center);
+    }
+    .middle{
+        background-color: #ececec;
+        height: 25rem;
+        width: 100%;
+        border-top: 1px dashed #2e3131;
+    }
+}
