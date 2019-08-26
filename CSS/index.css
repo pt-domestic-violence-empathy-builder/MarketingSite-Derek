@@ -179,10 +179,23 @@ header nav .dropdown:hover .dropbtn {
   color: black;
   border: 1px solid black;
 }
+@media (min-width: 1000px) {
+  header .nav-container {
+    height: 10rem;
+    background-color: #a537fd;
+    border-bottom: 1px dashed black;
+  }
+}
 .footer {
   background-color: #a537fd;
   padding: 2%;
+  border-top: 1px dashed black;
   text-align: center;
+}
+@media (min-width: 1000px) {
+  .footer {
+    margin-top: 3.5%;
+  }
 }
 .main-content {
   height: 50rem;
@@ -224,32 +237,31 @@ header nav .dropdown:hover .dropbtn {
   border-radius: 50%;
 }
 .main-content .button-container #button:active {
-  color: black;
   border: 1px solid black;
   box-shadow: 0 0 0 #DDA0DD;
-  background-color: #DDA0DD;
   margin-top: 2px;
-}
-.main-content .middle {
-  border: 1px solid black;
 }
 .main-content .middle .text2 {
   padding: 5%;
   padding-top: 6%;
   padding-bottom: 6%;
-  background-color: #2e3131;
+  border-top: 1px dashed #2e3131;
+  color: #EEAA99;
 }
 .main-content .middle .text3 {
   padding: 5%;
   padding-top: 6%;
   padding-bottom: 6%;
-  background-color: #a537fd;
+  border-top: 1px dashed #a537fd;
+  color: #EEAA99;
 }
 .main-content .middle .text4 {
   padding: 5%;
   padding-top: 6%;
   padding-bottom: 6%;
-  background-color: #2e3131;
+  border-top: 1px dashed #2e3131;
+  border-bottom: 1px dashed #a537fd;
+  color: #EEAA99;
 }
 @media (min-width: 1000px) {
   .main-content {
@@ -257,6 +269,7 @@ header nav .dropdown:hover .dropbtn {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    height: 40rem;
   }
   .main-content .intro {
     width: 25%;
@@ -264,19 +277,20 @@ header nav .dropdown:hover .dropbtn {
     background-color: #ececec;
   }
   .main-content .intro .text {
-    margin-top: 90%;
+    margin-top: 60%;
     background-color: #ececec;
     color: #EEAA99;
     border-top: 1px dashed #2e3131;
     border-bottom: 1px dashed #a537fd;
   }
   .main-content .button-container {
+    height: 40rem;
     width: 55%;
   }
   .main-content .button-container #button {
-    height: 25%;
-    width: 55%;
-    padding-top: 35%;
+    height: 35%;
+    width: 60%;
+    padding-top: 45%;
   }
   .main-content .middle {
     width: 25%;
@@ -285,18 +299,8 @@ header nav .dropdown:hover .dropbtn {
     background-color: #ececec;
   }
   .main-content .middle .text {
-    margin-top: 25%;
+    margin-top: 10%;
     background-color: #ececec;
     color: #EEAA99;
-  }
-  .main-content .middle .text2 {
-    border-top: 1px dashed #2e3131;
-  }
-  .main-content .middle .text3 {
-    border-top: 1px dashed #a537fd;
-  }
-  .main-content .middle .text4 {
-    border-top: 1px dashed #2e3131;
-    border-bottom: 1px dashed #a537fd;
   }
 }

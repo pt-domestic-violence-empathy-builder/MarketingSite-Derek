@@ -34,43 +34,47 @@
             border-radius: 50%;
         }
         #button:active {
-            color: black;
+            // color: black;
             border: 1px solid black;
             box-shadow: 0 0 0 @plum;
-            background-color: @plum;
+            // background-color: @plum;
             margin-top: 2px;
         }
         .flexin(row, center, center);
     }
     .middle{
-        border: 1px solid black;
         .text2{
             padding: 5%;
             padding-top: 6%;
             padding-bottom: 6%;
-            background-color: #2e3131;
+            border-top: 1px dashed #2e3131;
+            color: @flower;
         }
         .text3{
             padding: 5%;
             padding-top: 6%;
             padding-bottom: 6%;
-            background-color: #a537fd;
+            border-top: 1px dashed #a537fd;
+            color: @flower;
         }
         .text4{
             padding: 5%;
             padding-top: 6%;
             padding-bottom: 6%;
-            background-color: #2e3131;
+            border-top: 1px dashed #2e3131;
+            border-bottom: 1px dashed #a537fd;
+            color: @flower;
         }
     }
     @media @desktop {
         .flexin(row, space-around, center);
+        height: 40rem;
         .intro{
             width: 25%;
             height: 100%;
             background-color: #ececec;
             .text{
-                margin-top: 90%;
+                margin-top: 60%;
                 background-color: #ececec;
                 color: @flower;
                 border-top: 1px dashed #2e3131;
@@ -78,11 +82,12 @@
             }
         }
         .button-container{
+            height: 40rem;
             width: 55%;
             #button {
-                height: 25%;
-                width: 55%;
-                padding-top: 35%;
+                height: 35%;
+                width: 60%;
+                padding-top: 45%;
             }
         }
         .middle {
@@ -91,20 +96,12 @@
             border: none;
             background-color: #ececec;
             .text {
-                margin-top: 25%;
+                margin-top: 10%;
                 background-color: #ececec;
                 color: @flower;
             }
-            .text2 {
-                border-top: 1px dashed #2e3131;
-            }
-            .text3{
-                border-top: 1px dashed #a537fd;
-            }
-            .text4{
-                border-top: 1px dashed #2e3131;
-                border-bottom: 1px dashed #a537fd;
-            }
+            
         }
     }
+    
 }
