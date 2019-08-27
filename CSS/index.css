@@ -353,6 +353,64 @@ header nav .dropdown:hover .dropbtn {
   word-break: break-word;
   white-space: normal;
 }
+@media (min-width: 1000px) {
+  .contact-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 43.5rem;
+    background-color: #ececec;
+  }
+  .contact-content .intro {
+    width: 22.5%;
+    height: 100%;
+    background-color: #ececec;
+  }
+  .contact-content .intro h1 {
+    margin-top: 60%;
+    background-color: #ececec;
+    color: #EEAA99;
+    border-top: 1px dashed #2e3131;
+    border-bottom: 1px dashed #a537fd;
+  }
+  .contact-content #form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    font-size: 1.5rem;
+    height: 37.5%;
+    width: 30%;
+    padding: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  .contact-content #form #name {
+    margin: 5%;
+  }
+  .contact-content #form #phone {
+    margin: 5%;
+  }
+  .contact-content #form #email {
+    margin: 5%;
+  }
+  .contact-content #form #message {
+    margin: 5%;
+  }
+  .contact-content #form button {
+    margin: 5%;
+  }
+  .contact-content .placeholder {
+    width: 22.5%;
+    height: 100%;
+    border: none;
+    background-color: #ececec;
+  }
+}
 .about-content .intro {
   height: 20rem;
   width: 100%;
