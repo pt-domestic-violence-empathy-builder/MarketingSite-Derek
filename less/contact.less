@@ -1,6 +1,6 @@
 .contact-content{
     .intro {
-        height: 25rem;
+        height: 10rem;
         width: 100%;
         background-color: #a537fd;
         border-bottom: 1px dashed #2e3131;
@@ -12,8 +12,18 @@
         }
     }
     #form{
+        border: 1px solid black;
+        height: 40rem;
+        width: 100%;
+        .flexin(column, space-evenly, center);
         .form-section{
             color: black;
+            .flexin(column, space-around, center);
+            width: 100%;
+            #message{
+                height: 10rem;
+                width: 80%;
+            }
         }
     }
 }
