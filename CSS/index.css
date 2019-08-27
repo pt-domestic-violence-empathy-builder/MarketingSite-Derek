@@ -337,9 +337,21 @@ header nav .dropdown:hover .dropbtn {
   align-items: center;
   width: 100%;
 }
+.contact-content #form .form-section #name {
+  margin-top: 1%;
+}
+.contact-content #form .form-section #email {
+  margin-top: 1%;
+}
+.contact-content #form .form-section #phone {
+  margin-top: 1%;
+}
 .contact-content #form .form-section #message {
+  margin-top: 1%;
   height: 10rem;
   width: 80%;
+  word-break: break-word;
+  white-space: normal;
 }
 .about-content .intro {
   height: 20rem;
