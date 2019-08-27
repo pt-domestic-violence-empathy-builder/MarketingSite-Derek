@@ -1,6 +1,6 @@
 .about-content{
     .intro{
-        height: 10rem;
+        height: 20rem;
         width: 100%;
         background-color: #a537fd; 
         font-size: @header * 2;
@@ -19,11 +19,55 @@
             height: 2.25rem;
         }
         .flexin(column, space-evenly, center);
+        
     }
     .middle{
         background-color: #ececec;
         height: 25rem;
         width: 100%;
         border-top: 1px dashed #2e3131;
+    }
+    @media @desktop {
+        .flexin(row, space-around, center);
+        height: 43.5rem;
+        .peeps{
+            width: 22.5%;
+            height: 100%;
+            background-color: #ececec;
+            .text{
+                margin-top: 60%;
+                background-color: #ececec;
+                color: @flower;
+                border-top: 1px dashed #2e3131;
+                border-bottom: 1px dashed #a537fd;
+            }
+        }
+        .intro{
+            border: none;
+            height: 43.5rem;
+            width: 55%;
+            background-color: #ececec;
+            h1 {
+                background-color: #a537fd; 
+                height: 37.5%;
+                width: 55%;
+                padding: 15%;
+                padding-top: 37.5%;
+                border-radius: 50%;
+                border: 1px solid black;
+            }
+        }
+        .middle {
+            width: 22.5%;
+            height: 100%;
+            border: none;
+            background-color: #ececec;
+            .text {
+                margin-top: 10%;
+                background-color: #ececec;
+                color: @flower;
+            }
+            
+        }
     }
 }
