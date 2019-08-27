@@ -210,10 +210,10 @@ header nav .dropdown:hover .dropbtn {
 }
 .main-content .intro .text {
   background-color: #a537fd;
-  padding-top: 5%;
+  padding-top: 3%;
   padding-left: 5%;
   padding-right: 5%;
-  padding-bottom: 1%;
+  padding-bottom: 3%;
 }
 .main-content .button-container {
   height: 50rem;
@@ -308,6 +308,20 @@ header nav .dropdown:hover .dropbtn {
     background-color: #ececec;
     color: #EEAA99;
   }
+}
+.contact-content .intro {
+  height: 25rem;
+  width: 100%;
+  background-color: #a537fd;
+  border-bottom: 1px dashed #2e3131;
+}
+.contact-content .intro h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 3%;
+}
+.contact-content #form .form-section {
+  color: black;
 }
 .about-content .intro {
   height: 20rem;
