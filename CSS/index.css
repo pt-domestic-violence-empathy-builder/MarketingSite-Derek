@@ -186,6 +186,12 @@ header nav .dropdown:hover .dropbtn {
     border-bottom: 1px dashed black;
   }
 }
+header img {
+  height: 2rem;
+  position: fixed;
+  left: 80%;
+  top: 2%;
+}
 .footer {
   background-color: #a537fd;
   padding: 2%;
