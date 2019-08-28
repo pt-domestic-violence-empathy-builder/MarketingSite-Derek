@@ -194,7 +194,6 @@ header nav .dropdown:hover .dropbtn {
 }
 @media (min-width: 1000px) {
   .footer {
-    margin-top: 3%;
     padding-top: 3%;
     padding-bottom: 1.25%;
   }
@@ -271,7 +270,7 @@ header nav .dropdown:hover .dropbtn {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 40rem;
+    height: 43.5rem;
   }
   .main-content .intro {
     width: 22.5%;
@@ -286,18 +285,17 @@ header nav .dropdown:hover .dropbtn {
     border-bottom: 1px dashed #a537fd;
   }
   .main-content .button-container {
-    height: 40rem;
+    height: 43.5rem;
     width: 55%;
   }
   .main-content .button-container #button {
-    margin-top: 3%;
-    height: 40%;
-    width: 60%;
+    height: 37.5%;
+    width: 55%;
     padding: 15%;
-    padding-top: 40%;
+    padding-top: 37.5%;
   }
   .main-content .button-container #button:active {
-    margin-top: 3.25%;
+    margin-top: 0.25%;
   }
   .main-content .middle {
     width: 22.5%;
@@ -306,6 +304,456 @@ header nav .dropdown:hover .dropbtn {
     background-color: #ececec;
   }
   .main-content .middle .text {
+    margin-top: 10%;
+    background-color: #ececec;
+    color: #EEAA99;
+  }
+}
+.about-content .intro {
+  height: 20rem;
+  width: 100%;
+  background-color: #a537fd;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.about-content .intro h1 {
+  text-align: center;
+}
+.about-content .peeps {
+  height: 15rem;
+  width: 100%;
+  background-color: #ececec;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-content .peeps .name {
+  color: #2e3131;
+  font-size: 1.5rem;
+  height: 2.25rem;
+}
+.about-content .middle {
+  background-color: #ececec;
+  height: 25rem;
+  width: 100%;
+  border-top: 1px dashed #2e3131;
+}
+@media (min-width: 1000px) {
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 43.5rem;
+  }
+  .about-content .peeps {
+    width: 22.5%;
+    height: 100%;
+    background-color: #ececec;
+  }
+  .about-content .peeps .text {
+    margin-top: 60%;
+    background-color: #ececec;
+    color: #EEAA99;
+    border-top: 1px dashed #2e3131;
+    border-bottom: 1px dashed #a537fd;
+  }
+  .about-content .intro {
+    border: none;
+    height: 43.5rem;
+    width: 55%;
+    background-color: #ececec;
+  }
+  .about-content .intro h1 {
+    background-color: #a537fd;
+    height: 37.5%;
+    width: 55%;
+    padding: 15%;
+    padding-top: 37.5%;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  .about-content .middle {
+    width: 22.5%;
+    height: 100%;
+    border: none;
+    background-color: #ececec;
+  }
+  .about-content .middle .text {
+    margin-top: 10%;
+    background-color: #ececec;
+    color: #EEAA99;
+  }
+}
+.jay-content .peeps .name1 {
+  color: #EEAA99;
+}
+.jay-content .intro-jay {
+  height: 20rem;
+  width: 100%;
+  background-color: lightgrey;
+  font-size: 3rem;
+  border: 1px dashed black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.jay-content .intro-jay h1 {
+  text-align: center;
+}
+.jay-content .middle {
+  height: 25rem;
+  border-top: none;
+  color: black;
+}
+.jay-content .middle p {
+  width: 80%;
+  margin: 10% auto;
+  text-align: center;
+}
+@media (min-width: 1000px) {
+  .jay-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 43.5rem;
+  }
+  .jay-content .peeps {
+    width: 22.5%;
+    height: 100%;
+    background-color: #ececec;
+  }
+  .jay-content .peeps .text {
+    margin-top: 60%;
+    background-color: #ececec;
+    color: #EEAA99;
+    border-top: 1px dashed #2e3131;
+    border-bottom: 1px dashed #a537fd;
+  }
+  .jay-content .intro-jay {
+    height: 43.5rem;
+    width: 55%;
+    background-color: #ececec;
+    border: none;
+  }
+  .jay-content .intro-jay h1 {
+    background-color: lightgrey;
+    height: 37.5%;
+    width: 55%;
+    padding: 15%;
+    padding-top: 37.5%;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  .jay-content .middle {
+    width: 22.5%;
+    height: 100%;
+    border: none;
+    background-color: #ececec;
+  }
+  .jay-content .middle .text {
+    margin-top: 10%;
+    background-color: #ececec;
+    color: #EEAA99;
+  }
+}
+.derek-content .peeps .name2 {
+  color: #EEAA99;
+}
+.derek-content .intro-derek {
+  height: 20rem;
+  width: 100%;
+  background-color: lightgrey;
+  font-size: 3rem;
+  border: 1px dashed black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.derek-content .intro-derek h1 {
+  text-align: center;
+}
+.derek-content .middle {
+  height: 25rem;
+  border-top: none;
+  color: black;
+}
+.derek-content .middle p {
+  width: 80%;
+  margin: 10% auto;
+  text-align: center;
+}
+@media (min-width: 1000px) {
+  .derek-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 43.5rem;
+  }
+  .derek-content .peeps {
+    width: 22.5%;
+    height: 100%;
+    background-color: #ececec;
+  }
+  .derek-content .peeps .text {
+    margin-top: 60%;
+    background-color: #ececec;
+    color: #EEAA99;
+    border-top: 1px dashed #2e3131;
+    border-bottom: 1px dashed #a537fd;
+  }
+  .derek-content .intro-derek {
+    height: 43.5rem;
+    width: 55%;
+    background-color: #ececec;
+    border: none;
+  }
+  .derek-content .intro-derek h1 {
+    background-color: lightgrey;
+    height: 37.5%;
+    width: 55%;
+    padding: 15%;
+    padding-top: 37.5%;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  .derek-content .middle {
+    width: 22.5%;
+    height: 100%;
+    border: none;
+    background-color: #ececec;
+  }
+  .derek-content .middle .text {
+    margin-top: 10%;
+    background-color: #ececec;
+    color: #EEAA99;
+  }
+}
+.iree-content .peeps .name3 {
+  color: #EEAA99;
+}
+.iree-content .intro-iree {
+  height: 20rem;
+  width: 100%;
+  background-color: lightgrey;
+  font-size: 3rem;
+  border: 1px dashed black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.iree-content .intro-iree h1 {
+  text-align: center;
+}
+.iree-content .middle {
+  height: 25rem;
+  border-top: none;
+  color: black;
+}
+.iree-content .middle p {
+  width: 80%;
+  margin: 10% auto;
+  text-align: center;
+}
+@media (min-width: 1000px) {
+  .iree-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 43.5rem;
+  }
+  .iree-content .peeps {
+    width: 22.5%;
+    height: 100%;
+    background-color: #ececec;
+  }
+  .iree-content .peeps .text {
+    margin-top: 60%;
+    background-color: #ececec;
+    color: #EEAA99;
+    border-top: 1px dashed #2e3131;
+    border-bottom: 1px dashed #a537fd;
+  }
+  .iree-content .intro-iree {
+    height: 43.5rem;
+    width: 55%;
+    background-color: #ececec;
+    border: none;
+  }
+  .iree-content .intro-iree h1 {
+    background-color: lightgrey;
+    height: 37.5%;
+    width: 55%;
+    padding: 15%;
+    padding-top: 37.5%;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  .iree-content .middle {
+    width: 22.5%;
+    height: 100%;
+    border: none;
+    background-color: #ececec;
+  }
+  .iree-content .middle .text {
+    margin-top: 10%;
+    background-color: #ececec;
+    color: #EEAA99;
+  }
+}
+.amber-content .peeps .name4 {
+  color: #EEAA99;
+}
+.amber-content .intro-amber {
+  height: 20rem;
+  width: 100%;
+  background-color: lightgrey;
+  font-size: 3rem;
+  border: 1px dashed black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.amber-content .intro-amber h1 {
+  text-align: center;
+}
+.amber-content .middle {
+  height: 25rem;
+  border-top: none;
+  color: black;
+}
+.amber-content .middle p {
+  width: 80%;
+  margin: 10% auto;
+  text-align: center;
+}
+@media (min-width: 1000px) {
+  .amber-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 43.5rem;
+  }
+  .amber-content .peeps {
+    width: 22.5%;
+    height: 100%;
+    background-color: #ececec;
+  }
+  .amber-content .peeps .text {
+    margin-top: 60%;
+    background-color: #ececec;
+    color: #EEAA99;
+    border-top: 1px dashed #2e3131;
+    border-bottom: 1px dashed #a537fd;
+  }
+  .amber-content .intro-amber {
+    height: 43.5rem;
+    width: 55%;
+    background-color: #ececec;
+    border: none;
+  }
+  .amber-content .intro-amber h1 {
+    background-color: lightgrey;
+    height: 37.5%;
+    width: 55%;
+    padding: 15%;
+    padding-top: 37.5%;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  .amber-content .middle {
+    width: 22.5%;
+    height: 100%;
+    border: none;
+    background-color: #ececec;
+  }
+  .amber-content .middle .text {
+    margin-top: 10%;
+    background-color: #ececec;
+    color: #EEAA99;
+  }
+}
+.kim-content .peeps .name5 {
+  color: #EEAA99;
+}
+.kim-content .intro-kim {
+  height: 20rem;
+  width: 100%;
+  background-color: lightgrey;
+  font-size: 3rem;
+  border: 1px dashed black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.kim-content .intro-kim h1 {
+  text-align: center;
+}
+.kim-content .middle {
+  height: 25rem;
+  border-top: none;
+  color: black;
+}
+.kim-content .middle p {
+  width: 80%;
+  margin: 10% auto;
+  text-align: center;
+}
+@media (min-width: 1000px) {
+  .kim-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 43.5rem;
+  }
+  .kim-content .peeps {
+    width: 22.5%;
+    height: 100%;
+    background-color: #ececec;
+  }
+  .kim-content .peeps .text {
+    margin-top: 60%;
+    background-color: #ececec;
+    color: #EEAA99;
+    border-top: 1px dashed #2e3131;
+    border-bottom: 1px dashed #a537fd;
+  }
+  .kim-content .intro-kim {
+    height: 43.5rem;
+    width: 55%;
+    background-color: #ececec;
+    border: none;
+  }
+  .kim-content .intro-kim h1 {
+    background-color: lightgrey;
+    height: 37.5%;
+    width: 55%;
+    padding: 15%;
+    padding-top: 37.5%;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  .kim-content .middle {
+    width: 22.5%;
+    height: 100%;
+    border: none;
+    background-color: #ececec;
+  }
+  .kim-content .middle .text {
     margin-top: 10%;
     background-color: #ececec;
     color: #EEAA99;

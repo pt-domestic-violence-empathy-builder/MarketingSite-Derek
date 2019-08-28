@@ -1,31 +1,30 @@
-.about-content{
-    .intro{
+.amber-content{
+    .peeps{
+        .name4{
+            color: @flower;
+        }
+    }
+    .intro-amber{
         height: 20rem;
         width: 100%;
-        background-color: #a537fd; 
+        background-color: lightgrey; 
         font-size: @header * 2;
+        border: 1px dashed black;
         h1{
             text-align: center;
         }
         .flexin(row, center, center);
     }
-    .peeps{
-        height: 15rem;
-        width: 100%;
-        background-color: #ececec;
-        .name{
-            color: #2e3131;
-            font-size: @header;
-            height: 2.25rem;
-        }
-        .flexin(column, space-evenly, center);
-        
-    }
     .middle{
-        background-color: #ececec;
         height: 25rem;
-        width: 100%;
-        border-top: 1px dashed #2e3131;
+        border-top: none;
+        color: black;
+        
+        p{
+            width: 80%;
+            margin: 10% auto;
+            text-align: center;
+        }
     }
     @media @desktop {
         .flexin(row, space-around, center);
@@ -42,13 +41,14 @@
                 border-bottom: 1px dashed #a537fd;
             }
         }
-        .intro{
-            border: none;
+        .intro-amber{
             height: 43.5rem;
             width: 55%;
             background-color: #ececec;
+            border: none;
             h1 {
-                background-color: #a537fd; 
+                
+                background-color: lightgrey; 
                 height: 37.5%;
                 width: 55%;
                 padding: 15%;
