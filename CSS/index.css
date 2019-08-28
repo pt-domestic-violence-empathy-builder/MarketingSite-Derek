@@ -210,10 +210,10 @@ header nav .dropdown:hover .dropbtn {
 }
 .main-content .intro .text {
   background-color: #a537fd;
-  padding-top: 5%;
+  padding-top: 3%;
   padding-left: 5%;
   padding-right: 5%;
-  padding-bottom: 1%;
+  padding-bottom: 3%;
 }
 .main-content .button-container {
   height: 50rem;
@@ -307,6 +307,108 @@ header nav .dropdown:hover .dropbtn {
     margin-top: 10%;
     background-color: #ececec;
     color: #EEAA99;
+  }
+}
+.contact-content .intro {
+  height: 10rem;
+  width: 100%;
+  background-color: #a537fd;
+  border-bottom: 1px dashed #2e3131;
+}
+.contact-content .intro h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 3%;
+}
+.contact-content #form {
+  border: 1px solid black;
+  height: 40rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contact-content #form .form-section {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.contact-content #form .form-section #name {
+  margin-top: 1%;
+}
+.contact-content #form .form-section #email {
+  margin-top: 1%;
+}
+.contact-content #form .form-section #phone {
+  margin-top: 1%;
+}
+.contact-content #form .form-section #message {
+  margin-top: 1%;
+  height: 10rem;
+  width: 80%;
+  word-break: break-word;
+  white-space: normal;
+}
+@media (min-width: 1000px) {
+  .contact-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 43.5rem;
+    background-color: #ececec;
+  }
+  .contact-content .intro {
+    width: 22.5%;
+    height: 100%;
+    background-color: #ececec;
+  }
+  .contact-content .intro h1 {
+    margin-top: 60%;
+    background-color: #ececec;
+    color: #EEAA99;
+    border-top: 1px dashed #2e3131;
+    border-bottom: 1px dashed #a537fd;
+  }
+  .contact-content #form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    font-size: 1.5rem;
+    height: 37.5%;
+    width: 30%;
+    padding: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  .contact-content #form #name {
+    margin: 5%;
+  }
+  .contact-content #form #phone {
+    margin: 5%;
+  }
+  .contact-content #form #email {
+    margin: 5%;
+  }
+  .contact-content #form #message {
+    margin: 5%;
+  }
+  .contact-content #form button {
+    margin: 5%;
+  }
+  .contact-content .placeholder {
+    width: 22.5%;
+    height: 100%;
+    border: none;
+    background-color: #ececec;
   }
 }
 .about-content .intro {
