@@ -9,51 +9,103 @@
             padding-right: 5%;
             padding-bottom: 1%;
         }
-        .button-container{
-
-            height: 40rem;
-            width: 100%;
-            background-color: #ececec;
-            #button {
-                border: 1px solid black;
-                font-size: @header;
-                background: #a537fd;
-                color: #ececec; 
-                text-decoration: none;
-                text-align: center;
-                width: 50%;
-                padding-top: 22.5%;
-                padding-bottom: 22.5%;
-                border-radius: 50%;
-            }
-            #button:hover {
-                color: black;
-                background-color: @plum;
-            }
-            .flexin(row, center, center);
+        
+            
         }
         
         .flexin(column, space-between, center);
+    .button-container{
+
+        height: 50rem;
+        width: 100%;
+        background-color: #ececec;
+        #button {
+            
+            font-size: @header * 2;
+            background: #a537fd;
+            color: #ececec; 
+            border: 1px solid black;
+            box-shadow: 2px 1px 2px black;
+            text-decoration: none;
+            text-align: center;
+            padding: 18%;
+            padding-left: 3.5%;
+            padding-right: 3.5%;
+            border-radius: 50%;
+        }
+        #button:active {
+            // color: black;
+            border: 1px solid black;
+            box-shadow: 0 0 0 @plum;
+            // background-color: @plum;
+            margin-top: 2px;
+        }
+        .flexin(row, center, center);
     }
     .middle{
-        border: 1px solid black;
         .text2{
             padding: 5%;
             padding-top: 6%;
             padding-bottom: 6%;
-            background-color: #2e3131;
+            border-top: 1px dashed #2e3131;
+            color: @flower;
         }
         .text3{
             padding: 5%;
             padding-top: 6%;
             padding-bottom: 6%;
-            background-color: #a537fd;
+            border-top: 1px dashed #a537fd;
+            color: @flower;
         }
         .text4{
             padding: 5%;
             padding-top: 6%;
             padding-bottom: 6%;
-            background-color: #2e3131;
+            border-top: 1px dashed #2e3131;
+            border-bottom: 1px dashed #a537fd;
+            color: @flower;
+        }
+    }
+    @media @desktop {
+        .flexin(row, space-around, center);
+        height: 40rem;
+        .intro{
+            width: 22.5%;
+            height: 100%;
+            background-color: #ececec;
+            .text{
+                margin-top: 60%;
+                background-color: #ececec;
+                color: @flower;
+                border-top: 1px dashed #2e3131;
+                border-bottom: 1px dashed #a537fd;
+            }
+        }
+        .button-container{
+            height: 40rem;
+            width: 55%;
+            #button {
+                margin-top: 3%;
+                height: 40%;
+                width: 60%;
+                padding: 15%;
+                padding-top: 40%;
+            }
+            #button:active{
+                margin-top: 3.25%;
+            }
+        }
+        .middle {
+            width: 22.5%;
+            height: 100%;
+            border: none;
+            background-color: #ececec;
+            .text {
+                margin-top: 10%;
+                background-color: #ececec;
+                color: @flower;
+            }
+            
         }
     }
     

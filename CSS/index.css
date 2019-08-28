@@ -179,20 +179,35 @@ header nav .dropdown:hover .dropbtn {
   color: black;
   border: 1px solid black;
 }
+@media (min-width: 1000px) {
+  header .nav-container {
+    height: 10rem;
+    background-color: #a537fd;
+    border-bottom: 1px dashed black;
+  }
+}
 .footer {
   background-color: #a537fd;
   padding: 2%;
+  border-top: 1px dashed black;
   text-align: center;
+}
+@media (min-width: 1000px) {
+  .footer {
+    margin-top: 3%;
+    padding-top: 3%;
+    padding-bottom: 1.25%;
+  }
 }
 .main-content {
   height: 50rem;
-}
-.main-content .intro {
-  height: 25rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+.main-content .intro {
+  height: 25rem;
 }
 .main-content .intro .text {
   background-color: #a537fd;
@@ -201,8 +216,8 @@ header nav .dropdown:hover .dropbtn {
   padding-right: 5%;
   padding-bottom: 1%;
 }
-.main-content .intro .button-container {
-  height: 40rem;
+.main-content .button-container {
+  height: 50rem;
   width: 100%;
   background-color: #ececec;
   display: flex;
@@ -210,40 +225,89 @@ header nav .dropdown:hover .dropbtn {
   justify-content: center;
   align-items: center;
 }
-.main-content .intro .button-container #button {
-  border: 1px solid black;
-  font-size: 1.5rem;
+.main-content .button-container #button {
+  font-size: 3rem;
   background: #a537fd;
   color: #ececec;
+  border: 1px solid black;
+  box-shadow: 2px 1px 2px black;
   text-decoration: none;
   text-align: center;
-  width: 50%;
-  padding-top: 22.5%;
-  padding-bottom: 22.5%;
+  padding: 18%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
   border-radius: 50%;
 }
-.main-content .intro .button-container #button:hover {
-  color: black;
-  background-color: #DDA0DD;
-}
-.main-content .middle {
+.main-content .button-container #button:active {
   border: 1px solid black;
+  box-shadow: 0 0 0 #DDA0DD;
+  margin-top: 2px;
 }
 .main-content .middle .text2 {
   padding: 5%;
   padding-top: 6%;
   padding-bottom: 6%;
-  background-color: #2e3131;
+  border-top: 1px dashed #2e3131;
+  color: #EEAA99;
 }
 .main-content .middle .text3 {
   padding: 5%;
   padding-top: 6%;
   padding-bottom: 6%;
-  background-color: #a537fd;
+  border-top: 1px dashed #a537fd;
+  color: #EEAA99;
 }
 .main-content .middle .text4 {
   padding: 5%;
   padding-top: 6%;
   padding-bottom: 6%;
-  background-color: #2e3131;
+  border-top: 1px dashed #2e3131;
+  border-bottom: 1px dashed #a537fd;
+  color: #EEAA99;
+}
+@media (min-width: 1000px) {
+  .main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 40rem;
+  }
+  .main-content .intro {
+    width: 22.5%;
+    height: 100%;
+    background-color: #ececec;
+  }
+  .main-content .intro .text {
+    margin-top: 60%;
+    background-color: #ececec;
+    color: #EEAA99;
+    border-top: 1px dashed #2e3131;
+    border-bottom: 1px dashed #a537fd;
+  }
+  .main-content .button-container {
+    height: 40rem;
+    width: 55%;
+  }
+  .main-content .button-container #button {
+    margin-top: 3%;
+    height: 40%;
+    width: 60%;
+    padding: 15%;
+    padding-top: 40%;
+  }
+  .main-content .button-container #button:active {
+    margin-top: 3.25%;
+  }
+  .main-content .middle {
+    width: 22.5%;
+    height: 100%;
+    border: none;
+    background-color: #ececec;
+  }
+  .main-content .middle .text {
+    margin-top: 10%;
+    background-color: #ececec;
+    color: #EEAA99;
+  }
 }
