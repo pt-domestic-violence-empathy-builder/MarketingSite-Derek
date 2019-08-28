@@ -1,39 +1,59 @@
-.main-content {
-    margin-top: 2%; 
+.main-content { 
     height: 50rem;
-    
-    p {
-        width: 90%;
-        padding: 3%;
-        
-    }
     .intro {
         height: 25rem;
-        #button {
-            border: 1px solid black;
-            font-size: @header;
-            background: rgba(165, 55, 253, 1);
-            color: @flower; 
-            text-decoration: none;
-            text-align: center;
-            padding-top: 22.5%;
-            padding-bottom: 22.5%;
-            width: 50%;
-            border-radius: 50%;
+        .text{
+            background-color: #a537fd;
+            padding-top: 5%;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-bottom: 1%;
         }
-        #button:hover {
-            color: black;
-            background-color: @plum;
-        }
+        .button-container{
 
-        .flexin(column, space-evenly, center);
+            height: 40rem;
+            width: 100%;
+            background-color: #ececec;
+            #button {
+                border: 1px solid black;
+                font-size: @header;
+                background: #a537fd;
+                color: #ececec; 
+                text-decoration: none;
+                text-align: center;
+                width: 50%;
+                padding-top: 22.5%;
+                padding-bottom: 22.5%;
+                border-radius: 50%;
+            }
+            #button:hover {
+                color: black;
+                background-color: @plum;
+            }
+            .flexin(row, center, center);
+        }
+        
+        .flexin(column, space-between, center);
     }
     .middle{
-        margin-top: 3%;
-        
-        p{
-            border-top: 1px solid black;
-            border-bottom: 1px solid black;
+        border: 1px solid black;
+        .text2{
+            padding: 5%;
+            padding-top: 6%;
+            padding-bottom: 6%;
+            background-color: #2e3131;
+        }
+        .text3{
+            padding: 5%;
+            padding-top: 6%;
+            padding-bottom: 6%;
+            background-color: #a537fd;
+        }
+        .text4{
+            padding: 5%;
+            padding-top: 6%;
+            padding-bottom: 6%;
+            background-color: #2e3131;
         }
     }
     

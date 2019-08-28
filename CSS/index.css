@@ -129,21 +129,22 @@ table {
 body {
   box-sizing: border-box;
   font-family: poppins;
-  color: #EEAA99;
+  color: #ececec;
+  font-size: 1rem;
 }
 header nav {
-  background-color: plum;
+  background-color: #2e3131;
 }
 header nav .dropbtn {
-  background-color: #DDA0DD;
-  color: black;
+  background-color: #2e3131;
+  color: #ececec;
   padding: 1rem;
-  font-size: black;
+  font-size: 1rem;
 }
 header nav .dropbtn .menu {
-  width: 30%;
+  width: 35%;
   height: 1px;
-  background-color: black;
+  background-color: #ececec;
   margin: 5% 40%;
 }
 header nav .dropdown {
@@ -180,44 +181,69 @@ header nav .dropdown:hover .dropbtn {
 }
 .footer {
   background-color: #a537fd;
-  padding: 1.5%;
+  padding: 2%;
   text-align: center;
 }
 .main-content {
-  margin-top: 2%;
   height: 50rem;
-}
-.main-content p {
-  width: 90%;
-  padding: 3%;
 }
 .main-content .intro {
   height: 25rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
-.main-content .intro #button {
+.main-content .intro .text {
+  background-color: #a537fd;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+}
+.main-content .intro .button-container {
+  height: 40rem;
+  width: 100%;
+  background-color: #ececec;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.main-content .intro .button-container #button {
   border: 1px solid black;
   font-size: 1.5rem;
   background: #a537fd;
-  color: #EEAA99;
+  color: #ececec;
   text-decoration: none;
   text-align: center;
+  width: 50%;
   padding-top: 22.5%;
   padding-bottom: 22.5%;
-  width: 50%;
   border-radius: 50%;
 }
-.main-content .intro #button:hover {
+.main-content .intro .button-container #button:hover {
   color: black;
   background-color: #DDA0DD;
 }
 .main-content .middle {
-  margin-top: 3%;
+  border: 1px solid black;
 }
-.main-content .middle p {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+.main-content .middle .text2 {
+  padding: 5%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  background-color: #2e3131;
+}
+.main-content .middle .text3 {
+  padding: 5%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  background-color: #a537fd;
+}
+.main-content .middle .text4 {
+  padding: 5%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  background-color: #2e3131;
 }
