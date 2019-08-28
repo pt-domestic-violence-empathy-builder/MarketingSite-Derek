@@ -126,3 +126,53 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+body {
+  font-family: poppins;
+}
+header nav {
+  background-color: plum;
+}
+header nav .dropbtn {
+  background-color: #DDA0DD;
+  color: black;
+  padding: 1rem;
+  font-size: black;
+}
+header nav .dropbtn .menu {
+  width: 30%;
+  height: 1px;
+  background-color: black;
+  margin: 5% 40%;
+}
+header nav .dropdown {
+  position: relative;
+  display: inline-block;
+}
+header nav .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: plum;
+  border: 1px solid black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+header nav .dropdown-content a {
+  color: black;
+  border: 1px solid black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+header nav .dropdown-content a:hover {
+  background-color: #D15E64;
+}
+header nav .dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 0.75;
+}
+header nav .dropdown:hover .dropbtn {
+  background-color: #DDA0DD;
+  color: black;
+  border: 1px solid black;
+}
