@@ -179,6 +179,31 @@ header nav .dropdown:hover .dropbtn {
   color: black;
   border: 1px solid black;
 }
+header nav .names {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 32.5%;
+  background-color: plum;
+  border: 1px solid black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+header nav .names a {
+  color: black;
+  border: 1px solid black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+header nav .names a:hover {
+  background-color: #D15E64;
+}
+header nav .about:hover .names {
+  display: block;
+  opacity: 1;
+}
 @media (min-width: 1000px) {
   header .nav-container {
     height: 10rem;
@@ -187,10 +212,10 @@ header nav .dropdown:hover .dropbtn {
   }
 }
 header img {
-  height: 2rem;
+  height: 2.5rem;
   position: fixed;
   right: 10px;
-  top: 2%;
+  top: 1.5%;
 }
 .footer {
   background-color: #a537fd;
@@ -231,6 +256,8 @@ header img {
   align-items: center;
 }
 .main-content .button-container #button {
+  height: 20%;
+  width: 40%;
   font-size: 3rem;
   background: #a537fd;
   color: #ececec;
@@ -238,7 +265,8 @@ header img {
   box-shadow: 2px 1px 2px black;
   text-decoration: none;
   text-align: center;
-  padding: 18%;
+  padding-top: 7%;
+  padding-bottom: 25%;
   padding-left: 3.5%;
   padding-right: 3.5%;
   border-radius: 50%;
