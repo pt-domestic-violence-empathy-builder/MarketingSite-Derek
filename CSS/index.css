@@ -200,7 +200,7 @@ header img {
 }
 @media (min-width: 1000px) {
   .footer {
-    padding-top: 3%;
+    padding-top: 4%;
     padding-bottom: 1.25%;
   }
 }
@@ -295,10 +295,10 @@ header img {
     width: 55%;
   }
   .main-content .button-container #button {
-    height: 37.5%;
+    height: 45%;
     width: 55%;
-    padding: 15%;
-    padding-top: 37.5%;
+    padding: 12.5%;
+    padding-top: 32%;
   }
   .main-content .button-container #button:active {
     margin-top: 0.25%;
@@ -387,11 +387,11 @@ header img {
     align-items: center;
     background-color: white;
     font-size: 1.5rem;
-    height: 37.5%;
-    width: 30%;
+    height: 42%;
+    width: 25%;
     padding: 10%;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 12.5%;
+    padding-bottom: 12.5%;
     border-radius: 50%;
     border: 1px solid black;
   }
@@ -478,10 +478,10 @@ header img {
   }
   .about-content .intro h1 {
     background-color: #a537fd;
-    height: 37.5%;
+    height: 45%;
     width: 55%;
-    padding: 15%;
-    padding-top: 37.5%;
+    padding: 12.5%;
+    padding-top: 32%;
     border-radius: 50%;
     border: 1px solid black;
   }
@@ -552,10 +552,10 @@ header img {
   }
   .jay-content .intro-jay h1 {
     background-color: lightgrey;
-    height: 37.5%;
+    height: 45%;
     width: 55%;
-    padding: 15%;
-    padding-top: 37.5%;
+    padding: 12.5%;
+    padding-top: 32%;
     border-radius: 50%;
     border: 1px solid black;
   }
@@ -626,10 +626,10 @@ header img {
   }
   .derek-content .intro-derek h1 {
     background-color: lightgrey;
-    height: 37.5%;
+    height: 45%;
     width: 55%;
-    padding: 15%;
-    padding-top: 37.5%;
+    padding: 12.5%;
+    padding-top: 32%;
     border-radius: 50%;
     border: 1px solid black;
   }
@@ -700,10 +700,10 @@ header img {
   }
   .iree-content .intro-iree h1 {
     background-color: lightgrey;
-    height: 37.5%;
+    height: 45%;
     width: 55%;
-    padding: 15%;
-    padding-top: 37.5%;
+    padding: 12.5%;
+    padding-top: 32%;
     border-radius: 50%;
     border: 1px solid black;
   }
@@ -774,10 +774,10 @@ header img {
   }
   .amber-content .intro-amber h1 {
     background-color: lightgrey;
-    height: 37.5%;
+    height: 45%;
     width: 55%;
-    padding: 15%;
-    padding-top: 37.5%;
+    padding: 12.5%;
+    padding-top: 32%;
     border-radius: 50%;
     border: 1px solid black;
   }
@@ -848,10 +848,10 @@ header img {
   }
   .kim-content .intro-kim h1 {
     background-color: lightgrey;
-    height: 37.5%;
+    height: 45%;
     width: 55%;
-    padding: 15%;
-    padding-top: 37.5%;
+    padding: 12.5%;
+    padding-top: 32%;
     border-radius: 50%;
     border: 1px solid black;
   }
