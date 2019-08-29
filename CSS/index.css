@@ -552,8 +552,17 @@ header img {
   justify-content: center;
   align-items: center;
 }
-.jay-content .intro-jay h1 {
-  text-align: center;
+.jay-content .intro-jay .img-container {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.jay-content .intro-jay .img-container img {
+  height: 100%;
+  width: 50%;
 }
 .jay-content .middle {
   height: 25rem;
@@ -638,8 +647,17 @@ header img {
   justify-content: center;
   align-items: center;
 }
-.derek-content .intro-derek h1 {
-  text-align: center;
+.derek-content .intro-derek .img-container {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.derek-content .intro-derek .img-container img {
+  height: 100%;
+  width: 50%;
 }
 .derek-content .middle {
   height: 25rem;
@@ -799,8 +817,17 @@ header img {
   justify-content: center;
   align-items: center;
 }
-.amber-content .intro-amber h1 {
-  text-align: center;
+.amber-content .intro-amber .img-container {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.amber-content .intro-amber .img-container img {
+  height: 100%;
+  width: 50%;
 }
 .amber-content .middle {
   height: 25rem;
@@ -885,8 +912,17 @@ header img {
   justify-content: center;
   align-items: center;
 }
-.kim-content .intro-kim h1 {
-  text-align: center;
+.kim-content .intro-kim .img-container {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.kim-content .intro-kim .img-container img {
+  height: 100%;
+  width: 50%;
 }
 .kim-content .middle {
   height: 25rem;

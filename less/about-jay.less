@@ -11,8 +11,15 @@
         background-color: lightgrey; 
         font-size: @header * 2;
         border: 1px dashed black;
-        h1{
-            text-align: center;
+        
+        .img-container{
+            height: 100%;
+            overflow: hidden;
+            .flexin(row, center, center);
+            img{
+                height: 100%;
+                width: 50%;
+            }
         }
         .flexin(row, center, center);
     }
