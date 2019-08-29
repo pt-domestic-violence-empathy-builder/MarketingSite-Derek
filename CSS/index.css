@@ -591,15 +591,25 @@ header img {
     background-color: #ececec;
     border: none;
   }
-  .jay-content .intro-jay h1 {
+  .jay-content .intro-jay .img-container {
     background-color: lightgrey;
     box-shadow: 2px 1px 2px black;
     height: 45%;
     width: 55%;
     padding: 12.5%;
-    padding-top: 32%;
+    padding-top: 0%;
+    padding-bottom: 44%;
     border-radius: 50%;
     border: 1px solid black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .jay-content .intro-jay .img-container img {
+    width: 150%;
+    margin: auto;
   }
   .jay-content .middle {
     width: 22.5%;
