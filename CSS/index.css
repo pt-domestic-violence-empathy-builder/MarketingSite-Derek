@@ -248,7 +248,7 @@ header img {
   padding-bottom: 3%;
 }
 .main-content .button-container {
-  height: 50rem;
+  height: 60rem;
   width: 100%;
   background-color: #ececec;
   display: flex;
@@ -294,6 +294,9 @@ header img {
   text-shadow: 1px 1px black;
   color: #EEAA99;
 }
+.main-content .middle .text3 a {
+  text-shadow: none;
+}
 .main-content .middle .text4 {
   padding: 5%;
   padding-top: 6%;
@@ -302,6 +305,9 @@ header img {
   border-bottom: 2px dashed #a537fd;
   text-shadow: 1px 1px black;
   color: #EEAA99;
+}
+.main-content .middle .text4 a {
+  text-shadow: none;
 }
 @media (min-width: 1000px) {
   .main-content {
