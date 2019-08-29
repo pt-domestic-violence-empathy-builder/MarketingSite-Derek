@@ -609,6 +609,7 @@ header img {
   }
   .jay-content .intro-jay .img-container img {
     width: 150%;
+    height: 250%;
     margin: auto;
   }
   .jay-content .middle {
@@ -677,15 +678,26 @@ header img {
     background-color: #ececec;
     border: none;
   }
-  .derek-content .intro-derek h1 {
+  .derek-content .intro-derek .img-container {
     background-color: lightgrey;
     box-shadow: 2px 1px 2px black;
     height: 45%;
     width: 55%;
     padding: 12.5%;
-    padding-top: 32%;
+    padding-top: 0%;
+    padding-bottom: 44%;
     border-radius: 50%;
     border: 1px solid black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .derek-content .intro-derek .img-container img {
+    width: 150%;
+    height: 230%;
+    margin: auto;
   }
   .derek-content .middle {
     width: 22.5%;
@@ -827,15 +839,25 @@ header img {
     background-color: #ececec;
     border: none;
   }
-  .amber-content .intro-amber h1 {
+  .amber-content .intro-amber .img-container {
     background-color: lightgrey;
     box-shadow: 2px 1px 2px black;
     height: 45%;
     width: 55%;
     padding: 12.5%;
-    padding-top: 32%;
+    padding-top: 0%;
+    padding-bottom: 44%;
     border-radius: 50%;
     border: 1px solid black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .amber-content .intro-amber .img-container img {
+    width: 150%;
+    height: 230%;
   }
   .amber-content .middle {
     width: 22.5%;
