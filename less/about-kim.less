@@ -19,8 +19,8 @@
                 height: 100%;
                 width: 50%;
             }
-        }
         .flexin(row, center, center);
+        }
     }
     .middle{
         height: 25rem;
@@ -53,16 +53,26 @@
             width: 55%;
             background-color: #ececec;
             border: none;
-            h1 {
-                
-                background-color: lightgrey;  
+            .flexin(row, center, center);
+            .img-container {     
+                background-color: lightgrey; 
                 box-shadow: 2px 1px 2px black;
-                height: 45%;
+                height: 20rem;
                 width: 55%;
-                padding: 12.5%;
-                padding-top: 32%;
+                padding: 8.15rem;
+                padding-top: 0%;
+                padding-bottom: 44%;
                 border-radius: 50%;
                 border: 1px solid black;
+                overflow:hidden;
+                // margin: -3vh auto;
+                .flexin(row, center, flex-start);
+                img{
+                    width: 145.5%;
+                    height: 250%;
+                    transform: scale(1.5) translateX(25px);
+                    // margin-right: 7.5%;
+                }
             }
         }
         .middle {
