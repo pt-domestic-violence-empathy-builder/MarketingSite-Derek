@@ -172,29 +172,60 @@ header nav .dropdown-content a:hover {
 }
 header nav .dropdown:hover .dropdown-content {
   display: block;
-  opacity: 0.75;
+  opacity: 1;
 }
 header nav .dropdown:hover .dropbtn {
   background-color: #DDA0DD;
   color: black;
   border: 1px solid black;
 }
+header nav .names {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 32.5%;
+  background-color: plum;
+  border: 1px solid black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+header nav .names a {
+  color: black;
+  border: 1px solid black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+header nav .names a:hover {
+  background-color: #D15E64;
+}
+header nav .about:hover .names {
+  display: block;
+  opacity: 1;
+}
 @media (min-width: 1000px) {
   header .nav-container {
     height: 10rem;
     background-color: #a537fd;
-    border-bottom: 1px dashed black;
+    border-bottom: 2px dashed black;
   }
+}
+header img {
+  height: 2.5rem;
+  position: absolute;
+  right: 10px;
+  top: 1.5%;
 }
 .footer {
   background-color: #a537fd;
   padding: 2%;
-  border-top: 1px dashed black;
+  border-top: 2px dashed black;
   text-align: center;
 }
 @media (min-width: 1000px) {
   .footer {
-    padding-top: 3%;
+    padding-top: 4%;
     padding-bottom: 1.25%;
   }
 }
@@ -210,6 +241,7 @@ header nav .dropdown:hover .dropbtn {
 }
 .main-content .intro .text {
   background-color: #a537fd;
+  text-shadow: 1px 1px black;
   padding-top: 3%;
   padding-left: 5%;
   padding-right: 5%;
@@ -225,14 +257,18 @@ header nav .dropdown:hover .dropbtn {
   align-items: center;
 }
 .main-content .button-container #button {
+  height: 20%;
+  width: 40%;
   font-size: 3rem;
   background: #a537fd;
   color: #ececec;
   border: 1px solid black;
   box-shadow: 2px 1px 2px black;
+  text-shadow: 1px 1px black;
   text-decoration: none;
   text-align: center;
-  padding: 18%;
+  padding-top: 7%;
+  padding-bottom: 25%;
   padding-left: 3.5%;
   padding-right: 3.5%;
   border-radius: 50%;
@@ -246,22 +282,25 @@ header nav .dropdown:hover .dropbtn {
   padding: 5%;
   padding-top: 6%;
   padding-bottom: 6%;
-  border-top: 1px dashed #2e3131;
+  border-top: 2px dashed #2e3131;
+  text-shadow: 1px 1px black;
   color: #EEAA99;
 }
 .main-content .middle .text3 {
   padding: 5%;
   padding-top: 6%;
   padding-bottom: 6%;
-  border-top: 1px dashed #a537fd;
+  border-top: 2px dashed #a537fd;
+  text-shadow: 1px 1px black;
   color: #EEAA99;
 }
 .main-content .middle .text4 {
   padding: 5%;
   padding-top: 6%;
   padding-bottom: 6%;
-  border-top: 1px dashed #2e3131;
-  border-bottom: 1px dashed #a537fd;
+  border-top: 2px dashed #2e3131;
+  border-bottom: 2px dashed #a537fd;
+  text-shadow: 1px 1px black;
   color: #EEAA99;
 }
 @media (min-width: 1000px) {
@@ -280,19 +319,20 @@ header nav .dropdown:hover .dropbtn {
   .main-content .intro .text {
     margin-top: 60%;
     background-color: #ececec;
+    text-shadow: 1px 1px black;
     color: #EEAA99;
-    border-top: 1px dashed #2e3131;
-    border-bottom: 1px dashed #a537fd;
+    border-top: 2px dashed #2e3131;
+    border-bottom: 2px dashed #a537fd;
   }
   .main-content .button-container {
     height: 43.5rem;
     width: 55%;
   }
   .main-content .button-container #button {
-    height: 37.5%;
+    height: 45%;
     width: 55%;
-    padding: 15%;
-    padding-top: 37.5%;
+    padding: 12.5%;
+    padding-top: 32%;
   }
   .main-content .button-container #button:active {
     margin-top: 0.25%;
@@ -306,6 +346,7 @@ header nav .dropdown:hover .dropbtn {
   .main-content .middle .text {
     margin-top: 10%;
     background-color: #ececec;
+    text-shadow: 1px 1px black;
     color: #EEAA99;
   }
 }
@@ -313,10 +354,11 @@ header nav .dropdown:hover .dropbtn {
   height: 10rem;
   width: 100%;
   background-color: #a537fd;
-  border-bottom: 1px dashed #2e3131;
+  border-bottom: 2px dashed black;
 }
 .contact-content .intro h1 {
   font-size: 3rem;
+  text-shadow: 1px 1px black;
   text-align: center;
   padding-top: 3%;
 }
@@ -366,26 +408,28 @@ header nav .dropdown:hover .dropbtn {
     width: 22.5%;
     height: 100%;
     background-color: #ececec;
+    border: none;
   }
   .contact-content .intro h1 {
     margin-top: 60%;
     background-color: #ececec;
     color: #EEAA99;
-    border-top: 1px dashed #2e3131;
-    border-bottom: 1px dashed #a537fd;
+    border-top: 2px dashed #2e3131;
+    border-bottom: 2px dashed #a537fd;
   }
   .contact-content #form {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    box-shadow: 2px 1px 2px black;
     background-color: white;
     font-size: 1.5rem;
-    height: 37.5%;
-    width: 30%;
+    height: 42%;
+    width: 25%;
     padding: 10%;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 12.5%;
+    padding-bottom: 12.5%;
     border-radius: 50%;
     border: 1px solid black;
   }
@@ -415,6 +459,7 @@ header nav .dropdown:hover .dropbtn {
   height: 20rem;
   width: 100%;
   background-color: #a537fd;
+  text-shadow: 1px 1px black;
   font-size: 3rem;
   display: flex;
   flex-direction: row;
@@ -472,10 +517,11 @@ header nav .dropdown:hover .dropbtn {
   }
   .about-content .intro h1 {
     background-color: #a537fd;
-    height: 37.5%;
+    box-shadow: 2px 1px 2px black;
+    height: 45%;
     width: 55%;
-    padding: 15%;
-    padding-top: 37.5%;
+    padding: 12.5%;
+    padding-top: 32%;
     border-radius: 50%;
     border: 1px solid black;
   }
@@ -493,6 +539,7 @@ header nav .dropdown:hover .dropbtn {
 }
 .jay-content .peeps .name1 {
   color: #EEAA99;
+  text-shadow: 1px 1px black;
 }
 .jay-content .intro-jay {
   height: 20rem;
@@ -546,10 +593,11 @@ header nav .dropdown:hover .dropbtn {
   }
   .jay-content .intro-jay h1 {
     background-color: lightgrey;
-    height: 37.5%;
+    box-shadow: 2px 1px 2px black;
+    height: 45%;
     width: 55%;
-    padding: 15%;
-    padding-top: 37.5%;
+    padding: 12.5%;
+    padding-top: 32%;
     border-radius: 50%;
     border: 1px solid black;
   }
@@ -567,6 +615,7 @@ header nav .dropdown:hover .dropbtn {
 }
 .derek-content .peeps .name2 {
   color: #EEAA99;
+  text-shadow: 1px 1px black;
 }
 .derek-content .intro-derek {
   height: 20rem;
@@ -620,10 +669,11 @@ header nav .dropdown:hover .dropbtn {
   }
   .derek-content .intro-derek h1 {
     background-color: lightgrey;
-    height: 37.5%;
+    box-shadow: 2px 1px 2px black;
+    height: 45%;
     width: 55%;
-    padding: 15%;
-    padding-top: 37.5%;
+    padding: 12.5%;
+    padding-top: 32%;
     border-radius: 50%;
     border: 1px solid black;
   }
@@ -694,10 +744,10 @@ header nav .dropdown:hover .dropbtn {
   }
   .iree-content .intro-iree h1 {
     background-color: lightgrey;
-    height: 37.5%;
+    height: 45%;
     width: 55%;
-    padding: 15%;
-    padding-top: 37.5%;
+    padding: 12.5%;
+    padding-top: 32%;
     border-radius: 50%;
     border: 1px solid black;
   }
@@ -715,6 +765,7 @@ header nav .dropdown:hover .dropbtn {
 }
 .amber-content .peeps .name4 {
   color: #EEAA99;
+  text-shadow: 1px 1px black;
 }
 .amber-content .intro-amber {
   height: 20rem;
@@ -768,10 +819,11 @@ header nav .dropdown:hover .dropbtn {
   }
   .amber-content .intro-amber h1 {
     background-color: lightgrey;
-    height: 37.5%;
+    box-shadow: 2px 1px 2px black;
+    height: 45%;
     width: 55%;
-    padding: 15%;
-    padding-top: 37.5%;
+    padding: 12.5%;
+    padding-top: 32%;
     border-radius: 50%;
     border: 1px solid black;
   }
@@ -789,6 +841,7 @@ header nav .dropdown:hover .dropbtn {
 }
 .kim-content .peeps .name5 {
   color: #EEAA99;
+  text-shadow: 1px 1px black;
 }
 .kim-content .intro-kim {
   height: 20rem;
@@ -842,10 +895,11 @@ header nav .dropdown:hover .dropbtn {
   }
   .kim-content .intro-kim h1 {
     background-color: lightgrey;
-    height: 37.5%;
+    box-shadow: 2px 1px 2px black;
+    height: 45%;
     width: 55%;
-    padding: 15%;
-    padding-top: 37.5%;
+    padding: 12.5%;
+    padding-top: 32%;
     border-radius: 50%;
     border: 1px solid black;
   }

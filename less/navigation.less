@@ -45,17 +45,49 @@ header {
 	.dropdown-content a:hover {background-color: @chestnut;}
 	  
 	  
-	.dropdown:hover .dropdown-content {display: block; opacity: .75;}
+	.dropdown:hover .dropdown-content {
+		display: block; 
+		opacity: 1;	
+	}
 	  
 	  
 	.dropdown:hover .dropbtn {background-color: @plum; color: black; border: 1px solid black;}
+	
+	.names {
+		display: none;
+		position: absolute;
+		left: 100%;
+		top: 32.5%;
+		background-color: plum;
+		border: 1px solid black;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+	.names a {
+		color: black;
+		border: 1px solid black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
 
+	.names a:hover {background-color: @chestnut;}
+
+	.about:hover .names {display: block; opacity: 1;}
+		
 	}
 	@media @desktop{
 		.nav-container{
 			height: 10rem;
 			background-color: #a537fd;
-			border-bottom: 1px dashed black;
+			border-bottom: 2px dashed black;
 		}
+	}
+	img{
+		height: 2.5rem;
+		position: absolute;
+		right: 10px;
+		top: 1.5%;
 	}
 }

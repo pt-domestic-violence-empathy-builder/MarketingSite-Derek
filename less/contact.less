@@ -3,10 +3,11 @@
         height: 10rem;
         width: 100%;
         background-color: #a537fd;
-        border-bottom: 1px dashed #2e3131;
+        border-bottom: 2px dashed black;
         h1 { 
             
             font-size: @header * 2;
+            text-shadow: 1px 1px black;
             text-align: center;
             padding-top: 3%; 
         }
@@ -46,24 +47,26 @@
             width: 22.5%;
             height: 100%;
             background-color: #ececec;
+            border: none;
             h1{
                 margin-top: 60%;
                 background-color: #ececec;
                 color: @flower;
-                border-top: 1px dashed #2e3131;
-                border-bottom: 1px dashed #a537fd;
+                border-top: 2px dashed #2e3131;
+                border-bottom: 2px dashed #a537fd;
             }
         }
         #form{
             .flexin(column, space-evenly, center);
             border: 1px solid black;
+            box-shadow: 2px 1px 2px black;
             background-color: white;
             font-size: @header;
-            height: 37.5%;
-            width: 30%;
+            height: 42%;
+            width: 25%;
             padding: 10%;
-            padding-top: 15%;
-            padding-bottom: 15%;
+            padding-top: 12.5%;
+            padding-bottom: 12.5%;
             border-radius: 50%;
             border: 1px solid black;
             #name{
