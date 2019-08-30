@@ -208,7 +208,7 @@ header nav .about:hover .names {
   header .nav-container {
     height: 10rem;
     background-color: #a537fd;
-    border-bottom: 2px dashed black;
+    border-bottom: 2px solid black;
   }
 }
 header img {
@@ -220,7 +220,7 @@ header img {
 .footer {
   background-color: #a537fd;
   padding: 2%;
-  border-top: 2px dashed black;
+  border-top: 2px solid black;
   text-align: center;
 }
 @media (min-width: 1000px) {
@@ -655,9 +655,9 @@ header img {
   .jay-content .intro-jay .img-container {
     background-color: lightgrey;
     box-shadow: 2px 1px 2px black;
-    height: 45%;
+    height: 20rem;
     width: 55%;
-    padding: 12.5%;
+    padding: 8.15rem;
     padding-top: 0%;
     padding-bottom: 44%;
     border-radius: 50%;
@@ -669,7 +669,7 @@ header img {
     align-items: flex-start;
   }
   .jay-content .intro-jay .img-container img {
-    width: 145.5%;
+    width: 155%;
     height: 250%;
   }
   .jay-content .middle {
@@ -750,9 +750,9 @@ header img {
   .derek-content .intro-derek .img-container {
     background-color: lightgrey;
     box-shadow: 2px 1px 2px black;
-    height: 45%;
+    height: 20rem;
     width: 55%;
-    padding: 12.5%;
+    padding: 8.15rem;
     padding-top: 0%;
     padding-bottom: 44%;
     border-radius: 50%;
@@ -764,8 +764,8 @@ header img {
     align-items: flex-start;
   }
   .derek-content .intro-derek .img-container img {
-    width: 150%;
-    height: 230%;
+    width: 155%;
+    height: 50rem;
     margin: auto;
   }
   .derek-content .middle {
@@ -920,9 +920,9 @@ header img {
   .amber-content .intro-amber .img-container {
     background-color: lightgrey;
     box-shadow: 2px 1px 2px black;
-    height: 45%;
+    height: 20rem;
     width: 55%;
-    padding: 12.5%;
+    padding: 8.15rem;
     padding-top: 0%;
     padding-bottom: 44%;
     border-radius: 50%;
@@ -934,8 +934,9 @@ header img {
     align-items: flex-start;
   }
   .amber-content .intro-amber .img-container img {
-    width: 150%;
-    height: 230%;
+    margin-left: 8.5%;
+    width: 55rem;
+    height: 48.75rem;
   }
   .amber-content .middle {
     width: 22.5%;
@@ -959,10 +960,6 @@ header img {
   background-color: lightgrey;
   font-size: 3rem;
   border: 1px dashed black;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
 .kim-content .intro-kim .img-container {
   height: 100%;
@@ -1012,15 +1009,27 @@ header img {
     background-color: #ececec;
     border: none;
   }
-  .kim-content .intro-kim h1 {
+  .kim-content .intro-kim .img-container {
     background-color: lightgrey;
     box-shadow: 2px 1px 2px black;
-    height: 45%;
+    height: 20rem;
     width: 55%;
-    padding: 12.5%;
-    padding-top: 32%;
+    padding: 8.15rem;
+    padding-top: 0%;
+    padding-bottom: 44%;
     border-radius: 50%;
     border: 1px solid black;
+    overflow: hidden;
+    margin: -1.5% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .kim-content .intro-kim .img-container img {
+    width: 145.5%;
+    height: 250%;
+    transform: scale(1.5) translateX(50px);
   }
   .kim-content .middle {
     width: 22.5%;
