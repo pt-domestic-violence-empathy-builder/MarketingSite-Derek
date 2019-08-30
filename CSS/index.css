@@ -309,6 +309,41 @@ header img {
 .main-content .middle .text4 a {
   text-shadow: none;
 }
+@media (min-width: 500px) {
+  .main-content .button-container {
+    height: 75rem;
+  }
+  .main-content .button-container #button {
+    width: 35%;
+  }
+}
+@media (min-width: 600px) {
+  .main-content .button-container #button {
+    width: 30%;
+    height: 15%;
+  }
+}
+@media (min-width: 700px) {
+  .main-content .button-container #button {
+    width: 25%;
+    height: 5%;
+  }
+}
+@media (min-width: 750px) {
+  .main-content .button-container #button {
+    width: 20%;
+    padding-bottom: 20%;
+    padding-top: 5%;
+    font-size: 2.25rem;
+  }
+}
+@media (min-width: 900px) {
+  .main-content .button-container #button {
+    width: 15%;
+    height: 5%;
+    padding-bottom: 15%;
+  }
+}
 @media (min-width: 1000px) {
   .main-content {
     display: flex;
@@ -335,10 +370,11 @@ header img {
     width: 55%;
   }
   .main-content .button-container #button {
-    height: 45%;
+    font-size: 3rem;
+    height: 40%;
     width: 55%;
     padding: 12.5%;
-    padding-top: 32%;
+    padding-top: 35%;
   }
   .main-content .button-container #button:active {
     margin-top: 0.25%;
@@ -569,6 +605,16 @@ header img {
 .jay-content .intro-jay .img-container img {
   height: 100%;
   width: 50%;
+}
+@media (min-width: 600px) {
+  .jay-content .intro-jay .img-container img {
+    width: 40%;
+  }
+}
+@media (min-width: 700px) {
+  .jay-content .intro-jay .img-container img {
+    width: 35%;
+  }
 }
 .jay-content .middle {
   height: 25rem;
