@@ -396,7 +396,7 @@ header img {
   height: 10rem;
   width: 100%;
   background-color: #a537fd;
-  border-bottom: 2px dashed black;
+  border-bottom: 2px solid black;
 }
 .contact-content .intro h1 {
   font-size: 3rem;
