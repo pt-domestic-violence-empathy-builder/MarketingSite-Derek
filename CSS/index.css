@@ -259,7 +259,7 @@ header img {
 .main-content .button-container #button {
   height: 20%;
   width: 40%;
-  font-size: 3rem;
+  font-size: 2.25rem;
   background: #a537fd;
   color: #ececec;
   border: 1px solid black;
@@ -308,6 +308,11 @@ header img {
 }
 .main-content .middle .text4 a {
   text-shadow: none;
+}
+@media (min-width: 420px) {
+  .main-content .button-container #button {
+    font-size: 3rem;
+  }
 }
 @media (min-width: 500px) {
   .main-content .button-container {

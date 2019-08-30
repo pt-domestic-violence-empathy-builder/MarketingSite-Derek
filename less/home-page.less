@@ -23,7 +23,7 @@
         #button {
             height: 20%;
             width: 40%;
-            font-size: @header * 2;
+            font-size: @header * 1.5;
             background: #a537fd;
             color: #ececec; 
             border: 1px solid black;
@@ -76,6 +76,13 @@
             color: @flower;
             a{
                 text-shadow: none;
+            }
+        }
+    }
+    @media(min-width: 420px) {
+        .button-container{
+            #button{
+                font-size: @header * 2;
             }
         }
     }
