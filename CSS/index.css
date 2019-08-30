@@ -1008,6 +1008,10 @@ header img {
     width: 55%;
     background-color: #ececec;
     border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
   .kim-content .intro-kim .img-container {
     background-color: lightgrey;
@@ -1020,7 +1024,6 @@ header img {
     border-radius: 50%;
     border: 1px solid black;
     overflow: hidden;
-    margin: -1.5% auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1029,7 +1032,7 @@ header img {
   .kim-content .intro-kim .img-container img {
     width: 145.5%;
     height: 250%;
-    transform: scale(1.5) translateX(50px);
+    transform: scale(1.5) translateX(25px);
   }
   .kim-content .middle {
     width: 22.5%;
